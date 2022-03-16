@@ -5,14 +5,17 @@
 		$mail 		=  $_POST['mail'];
 		
 
-		if($mail == ""){
+		
+        if($mail == ""){
+
 			echo "Null submission...";
+
 		}else
-            {
-                echo $mail;
-                echo "<br>";
-                echo "success";
-            }
+        {
+            echo $mail;
+            echo "<br>";
+            echo "success";
+        }
 	}
 ?>
 
@@ -25,7 +28,8 @@
 	<form method="POST" action="#">
 		<fieldset>
 			<legend>Email</legend>
-            mail:<input type="Email" name="mail" value=""> <br><br>
+
+            mail:<input type="Email" name="mail" value="....."> <br><br>
             <input type="submit" name="submit" value="Submit">
 		</fieldset>
 	</form>
