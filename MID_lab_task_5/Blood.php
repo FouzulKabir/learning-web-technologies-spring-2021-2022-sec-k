@@ -20,8 +20,5 @@
                                          <option value="">AB-</option>
                                              <option value="">O-</option>
                 </select><br>
-                     <input type="submit" name="" value="Submit" placeholder="">
-            </fieldset> 
-        </form>
-    </body>
+            
 </html>
